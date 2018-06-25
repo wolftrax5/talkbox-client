@@ -1,0 +1,40 @@
+{
+  "name": "talkbox-client",
+  "version": "0.0.1",
+  "description": "client of use talkbox with react implementation",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wolftrax5/talkbox-client.git"
+  },
+  "keywords": [
+    "React",
+    "talkbox",
+    "Webpack"
+  ],
+  "author": "Alejandro Medina Robles <5almero5@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolftrax5/talkbox-client/issues"
+  },
+  "homepage": "https://github.com/wolftrax5/talkbox-client#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
